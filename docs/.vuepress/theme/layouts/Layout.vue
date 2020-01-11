@@ -153,25 +153,26 @@ export default {
 html,body,.theme-container {
   background-color: #f6f6f6 !important;
 }
+.theme-container {
+  .page-main-content {
+    background-color: #fff;
+    margin-top: 4.6rem;
+    padding-left:0;
+    margin-left: 21.5rem;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    border-radius: 2px;
+  }
 
-.page-main-content {
-  background-color: #fff;
-  margin-top: 4.6rem;
-  padding-left:0;
-  margin-left: 21.5rem;
-  box-shadow: 0 1px 3px rgba(26,26,26,.1);
-  border-radius: 2px;
-}
+  .page-sidebar-content {
+    top: 4.6rem;
+    width: 18rem;
+    left: 1.5rem;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    border-radius: 2px;
+  }
 
-.page-sidebar-content {
-  top: 4.6rem;
-  width: 18rem;
-  left: 1.5rem;
-  box-shadow: 0 1px 3px rgba(26,26,26,.1);
-  border-radius: 2px;
-}
-
-@media (max-width: 719px) {
+  @media (max-width: 719px) {
+  
   .page-main-content {
     margin-left: 0;
   }
@@ -179,5 +180,6 @@ html,body,.theme-container {
   .page-sidebar-content {
     left: 0;
   }
+}
 }
 </style>
