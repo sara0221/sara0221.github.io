@@ -151,7 +151,7 @@ export default {
 <style lang="scss">
 
 html,body,.theme-container {
-  background-color: #f6f6f6;
+  background-color: #f6f6f6 !important;
 }
 
 .page-main-content {
